@@ -25,9 +25,9 @@ int main(void)
 				putchar(com);
 				putchar(32);
 			}
-			n2 <= 1;
+			n2 += 1;
 		}
-		n1 <= 1;
+		n1 += 1;
 	}
 	putchar('\n');
 	return(0);
