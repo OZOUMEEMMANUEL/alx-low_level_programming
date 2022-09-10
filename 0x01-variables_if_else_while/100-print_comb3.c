@@ -15,7 +15,7 @@ int main(void)
 	int com = 44;
 	while (n1<= 57)
 	{
-		n2 =n1 +1
+		n2 =n1 +1;
 		while(n2 <= 57)
 		{
 			putchar(n1);
