@@ -2,19 +2,16 @@
 /*
  * main = check code
  *
- * Return: 0
+ * Return:0
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int n;
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (n = 0; n < 26; n++)
+	for (n = 'a'; n <= 'z'; n++)
 	{
-		putchar(alphabet[n]);
+		putchar(n);
 	}
 	putchar('\n');
-	return (0);
-
 }
